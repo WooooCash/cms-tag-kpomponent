@@ -1,0 +1,18 @@
+.toolbar {
+    /* padding: 0.5rem 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.toolbarButton {
+    line-height: 0;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+
+.toolbarButton:hover {
+    cursor: pointer;
+    background-color: var(--gray-hover)
+}
+

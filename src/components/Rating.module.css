@@ -1,0 +1,16 @@
+.ratingContainer {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ratingItemsContainer {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.ratingItem {
+    width: 0.8rem;
+    height: 0.3rem;
+    border-radius: 0.3rem;
+}

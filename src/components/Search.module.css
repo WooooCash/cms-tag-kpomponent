@@ -1,0 +1,17 @@
+.searchContainer {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    box-sizing: border-box;
+
+    display: flex;
+    gap: 0.5rem;
+}
+
+.searchInput {
+    flex-grow: 1;
+}
+
+.searchInput, .searchInput:focus, .searchInput:active, .searchInput:focus-visible {
+    border: none;
+    outline: none;
+}

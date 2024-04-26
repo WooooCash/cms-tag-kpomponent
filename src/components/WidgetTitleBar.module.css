@@ -1,0 +1,20 @@
+.titleBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.7rem 0.7rem;
+}
+
+.title {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.exitButton {
+    line-height: 0;
+}
+
+.exitButton:hover {
+  cursor: pointer;
+}

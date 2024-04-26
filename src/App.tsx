@@ -1,15 +1,14 @@
-import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
 import Toolbar from "./components/Toolbar";
+import TagWidget from "./tags/components/TagWidget";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
+    <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
       <Toolbar />
-    </>
+      <TagWidget />
+    </div>
   );
 }
 

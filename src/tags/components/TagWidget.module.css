@@ -1,0 +1,8 @@
+.tagWidget {
+    padding: 0.3rem;
+    width: 20rem;
+}
+
+.tagWidget > hr {
+    color: rgba(230, 230, 230, 0.33);
+}

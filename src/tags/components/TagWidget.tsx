@@ -5,6 +5,7 @@ import styles from "./TagWidget.module.css";
 import Search from "../../components/Search";
 import Pill from "../../components/Pill";
 import Rating from "../../components/Rating";
+import TagAI from "./TagAI";
 
 export default function TagWidget() {
   return (
@@ -21,9 +22,9 @@ export default function TagWidget() {
           <Pill text="Test Halo" />
         </div>
         <hr />
-        <div>Recommended</div>
+        <TagAI />
         <hr />
-        <Rating score={80} maxScore={100} />
+        <Rating score={20} maxScore={100} />
       </div>
     </Card>
   );

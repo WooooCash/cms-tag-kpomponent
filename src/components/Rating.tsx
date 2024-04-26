@@ -12,11 +12,11 @@ type RatingStage = {
 };
 const ratingStages: RatingStage[] = [
   { label: "Żenada", color: "#e51f1f" },
-  { label: "Źle", color: "#e51f1f" },
+  { label: "Źle", color: "#f96368" },
   { label: "Słabo", color: "#f2a134" },
   { label: "Ok", color: "#f7e379" },
   { label: "Dobrze", color: "#abe16c" },
-  { label: "Super", color: "#5f8726" },
+  { label: "Super", color: "#1c9c4c" },
 ];
 
 function RatingItem({ color }: { color: string }) {
@@ -26,8 +26,9 @@ function RatingItem({ color }: { color: string }) {
 }
 
 export default function Rating(props: RatingProps) {
-  const filledCount = Math.floor(
-    (props.score * (ratingStages.length - 1)) / props.maxScore
+  const filledCount = Math.min(
+    Math.floor((props.score * (ratingStages.length - 1)) / props.maxScore),
+    ratingStages.length - 1
   );
   const unfilledCount = ratingStages.length - filledCount - 1;
   const curStage = ratingStages[filledCount];
@@ -42,7 +43,7 @@ export default function Rating(props: RatingProps) {
           <RatingItem key={i} color={curStage.color} />
         ))}
         {[...Array(unfilledCount)].map((_, i) => (
-          <RatingItem key={i} color="gray" />
+          <RatingItem key={i} color="var(--light-text)" />
         ))}
       </div>
     </div>

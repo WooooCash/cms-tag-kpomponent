@@ -9,6 +9,7 @@
 
 .searchInput {
     flex-grow: 1;
+    font-size: 1rem;
 }
 
 .searchInput, .searchInput:focus, .searchInput:active, .searchInput:focus-visible {

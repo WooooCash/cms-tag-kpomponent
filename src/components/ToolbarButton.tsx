@@ -9,7 +9,7 @@ type ToolbarButtonProps = {
 export default function ToolbarButton(props: ToolbarButtonProps) {
   return (
     <div className={styles.toolbarButton}>
-      <props.icon size={20}/>
+      <props.icon size={"1.5rem"}/>
     </div>
   );
 }

@@ -9,7 +9,7 @@ type SearchProps = {
 export default function Search(props: SearchProps) {
   return (
     <div className={styles.searchContainer}>
-      <CiSearch size={18} />
+      <CiSearch size={"1.4rem"} />
       <input className={styles.searchInput} placeholder={props.placeholder}/>
     </div>
   );

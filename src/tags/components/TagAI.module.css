@@ -1,0 +1,19 @@
+.tagAiContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem 0.5rem;;
+}
+
+.tagAiHeading,
+.tagAiItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tagAiHeading {
+  color: #a3a3a3;
+  font-size: 0.9rem;
+}

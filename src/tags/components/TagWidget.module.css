@@ -1,8 +1,13 @@
 .tagWidget {
     padding: 0.3rem;
     width: 20rem;
+    height: 21.5rem;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .tagWidget > hr {
+    width: 100%;
     color: rgba(230, 230, 230, 0.33);
 }

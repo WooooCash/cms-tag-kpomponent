@@ -13,7 +13,12 @@
 
 .pillClose {
     line-height: 0;
+    color: #a1a1a1;
+
+    transition-property: color;
+    transition-duration: 0.15s;
 }
 .pillClose:hover {
     cursor: pointer;
+    color: #161616;
 }

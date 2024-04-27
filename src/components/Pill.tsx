@@ -11,7 +11,7 @@ export default function Pill(props: PillProps) {
     <div className={styles.pill}>
       <div>{props.text}</div>
       <div className={styles.pillClose}>
-        <MdClose color="#a1a1a1" />
+        <MdClose />
       </div>
     </div>
   );

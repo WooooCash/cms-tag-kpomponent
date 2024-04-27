@@ -1,0 +1,101 @@
+.tagSearchResultsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5rem;
+  box-sizing: border-box;
+
+  user-select: none;
+}
+
+.tagSearchResultsList {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5rem;
+
+  overflow-y: scroll;
+  height: 0;
+}
+
+.tagSearchResult {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.5rem;
+
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+
+  transition-property: background-color;
+  transition-duration: 0.15s;
+}
+
+.tagSearchResult:hover {
+  cursor: pointer;
+  background-color: var(--gray-hover);
+}
+
+.tagSearchResult_selected {
+  border: 1px solid var(--primary-blue);
+}
+
+.tagSearchResultCheck {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #dadada;
+  border-radius: 0.4rem;
+  background-color: var(--gray-hover);
+  color: var(--gray-hover);
+}
+
+.tagSearchResult_selected > .tagSearchResultCheck {
+    background-color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    color: #fff;
+}
+
+.tagSearchResultText {
+  flex-grow: 1;
+}
+
+.tagSearchResultScore {
+  color: #a1a1a1;
+  font-size: 0.7rem;
+}
+
+.tagSearchSubmit {
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  background-color: var(--primary-blue);
+  color: #fff;
+
+  transition-property: background-color;
+  transition-duration: 0.15s;
+}
+
+.tagSearchSubmit:hover {
+  cursor: pointer;
+  background-color: #1450d2;
+}
+
+.tagSearchSubmit:disabled {
+  width: 100%;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+
+  background-color: var(--gray-hover);
+  color: #dadada;
+}
+
+

@@ -1,0 +1,691 @@
+[
+  {
+    "name": "Samwise Gamgee",
+    "tags": [
+      "Frodo Baggins",
+      "Lucaenor Leneneos",
+      "Naelahnae Aeritheos",
+      "Relaesys Tarareon",
+      "Kailyn Rok"
+    ],
+    "score": 3
+  },
+  {
+    "name": "Elessar",
+    "tags": ["Matamion Baeltheos", "Jaerenarr Vaelgaris"],
+    "score": 51
+  },
+  {
+    "name": "Tintalle",
+    "tags": ["Khal", "Malaera Caenaeris"],
+    "score": 49
+  },
+  {
+    "name": "Gandalf",
+    "tags": [
+      "Bilbo Baggins",
+      "Frodo Baggins",
+      "Aeron Taentheon",
+      "Maenera Maenlarys",
+      "Jory",
+      "Relaesys Tarareon"
+    ],
+    "score": 73
+  },
+  {
+    "name": "Bregalad",
+    "tags": ["Vaegaron Rahaleos"],
+    "score": 0
+  },
+  {
+    "name": "Eomer",
+    "tags": ["Maddeson Slynt", "Catelyn"],
+    "score": 87
+  },
+  {
+    "name": "Sauron",
+    "tags": ["Mariyam Bettley", "Taenys Tariar", "Barrock Farrest", "Khal"],
+    "score": 100
+  },
+  {
+    "name": "Shadowfax",
+    "tags": [
+      "Rahaegel Qohlaeron",
+      "Aeron Taentheon",
+      "Salna Stackspear",
+      "Ramsay"
+    ],
+    "score": 48
+  },
+  {
+    "name": "Gollum",
+    "tags": [
+      "Basella Valaellis",
+      "Zane Oatwright",
+      "Malaenarr Caleneos",
+      "Catelyn"
+    ],
+    "score": 34
+  },
+  {
+    "name": "Bergil",
+    "tags": ["Theon"],
+    "score": 83
+  },
+  {
+    "name": "Galadriel",
+    "tags": ["Maryana Clarick", "Catelyn", "Celia Tascer", "Barrish Wars"],
+    "score": 63
+  },
+  {
+    "name": "Arwen Undomiel",
+    "tags": [
+      "Nysah Catell",
+      "Basella Valaellis",
+      "Jaida Shepherd",
+      "Aegalar Daltalos",
+      "Galaegel Aerlaeron"
+    ],
+    "score": 29
+  },
+  {
+    "name": "Bergil",
+    "tags": ["Jaida Hasty"],
+    "score": 9
+  },
+  {
+    "name": "Hasufel",
+    "tags": ["Maddeson Slynt"],
+    "score": 88
+  },
+  {
+    "name": "Treebeard",
+    "tags": [
+      "Taeceraenar Raenaellis",
+      "Jaeneth Faerson",
+      "Nelaesanne Valnaris"
+    ],
+    "score": 90
+  },
+  {
+    "name": "Luthien Tinuviel",
+    "tags": [
+      "Malaera Caenaeris",
+      "Saeresanne Maenlarys",
+      "Ramsay",
+      "Melinsa Dondarrion",
+      "Aegavon Taraleos"
+    ],
+    "score": 15
+  },
+  {
+    "name": "Glorfindel",
+    "tags": ["Daenyx Taentheos", "Delaehna Dalaellis", "Naelahnae Aeritheos"],
+    "score": 44
+  },
+  {
+    "name": "Faramir",
+    "tags": ["Jessar Smyte", "Malaegar Qohtalor"],
+    "score": 91
+  },
+  {
+    "name": "Elladan",
+    "tags": ["Jaeneth Faerson", "Saeresanne Maenlarys", "Alavin Swyft"],
+    "score": 96
+  },
+  {
+    "name": "Isildur",
+    "tags": ["Eraemala Qartheon", "Jaeneth Faerson", "Malaesys Velnaeros"],
+    "score": 96
+  },
+  {
+    "name": "Faramir",
+    "tags": ["Melinsa Dondarrion"],
+    "score": 49
+  },
+  {
+    "name": "Banazir",
+    "tags": ["Mamyx Nohlaeris", "Derron Blount", "Maenera Maenlarys"],
+    "score": 47
+  },
+  {
+    "name": "Bregalad",
+    "tags": [
+      "Daenerys Caenaeris",
+      "Nelaesanne Valnaris",
+      "Jaida Hasty",
+      "Aegavon Taraleos",
+      "Taenys Laerdaerys"
+    ],
+    "score": 35
+  },
+  {
+    "name": "Wormtongue",
+    "tags": ["Rhaenesella Mellaeron", "Chyanne Woodfoot", "Alylyra Baelaellis"],
+    "score": 75
+  },
+  {
+    "name": "Finglas",
+    "tags": ["Maenera Maenlarys", "Lucaenor Leneneos", "Taecegaron Maennaeros"],
+    "score": 28
+  },
+  {
+    "name": "Luthien Tinuviel",
+    "tags": ["Aeremala Gonanyon", "Celia Tascer", "Billon Cherrane"],
+    "score": 61
+  },
+  {
+    "name": "Sauron",
+    "tags": ["Bran"],
+    "score": 68
+  },
+  {
+    "name": "Eowyn",
+    "tags": ["Yara", "Aeremala Gonanyon"],
+    "score": 36
+  },
+  {
+    "name": "Tintalle",
+    "tags": ["Malaesys Velnaeros", "Manaehra Daereris", "Bran"],
+    "score": 53
+  },
+  {
+    "name": "Eowyn",
+    "tags": ["Aeranor Calaeris"],
+    "score": 44
+  },
+  {
+    "name": "Estel",
+    "tags": ["Jaeneth Faerson"],
+    "score": 39
+  },
+  {
+    "name": "Beregond",
+    "tags": ["Lucaenor Leneneos", "Haessa Aggaeron"],
+    "score": 90
+  },
+  {
+    "name": "Estel",
+    "tags": [
+      "Kailyn Rok",
+      "Malaenarr Caleneos",
+      "Saeresanne Maenlarys",
+      "Delaehna Dalaellis"
+    ],
+    "score": 83
+  },
+  {
+    "name": "Elbereth Githoniel",
+    "tags": [
+      "Saeresanne Maenlarys",
+      "Melinsa Dondarrion",
+      "Jessar Smyte",
+      "Relina Practor"
+    ],
+    "score": 73
+  },
+  {
+    "name": "Fladrif",
+    "tags": ["Manaena Maennaeros", "Malaegar Qohtalor", "Barrock Farrest"],
+    "score": 92
+  },
+  {
+    "name": "Sauron",
+    "tags": [
+      "Alylyra Baelaellis",
+      "Aliza Tradd",
+      "Zane Oatwright",
+      "Jaelanera Baelinarys"
+    ],
+    "score": 56
+  },
+  {
+    "name": "Boromir",
+    "tags": ["Aeron Taentheon"],
+    "score": 12
+  },
+  {
+    "name": "Glorfindel",
+    "tags": ["Rolan Caswell", "Natari Ryser", "Ruger Selmy"],
+    "score": 15
+  },
+  {
+    "name": "Peregrin",
+    "tags": ["Melinsa Dondarrion"],
+    "score": 53
+  },
+  {
+    "name": "Orald",
+    "tags": ["Malaesys Velnaeros"],
+    "score": 88
+  },
+  {
+    "name": "Gimli",
+    "tags": [
+      "Rhaenesa Calnaris",
+      "Manaehra Daereris",
+      "Keila Humble",
+      "Rolan Caswell"
+    ],
+    "score": 33
+  },
+  {
+    "name": "Isildur",
+    "tags": ["Delaehna Dalaellis"],
+    "score": 14
+  },
+  {
+    "name": "Gimli",
+    "tags": [
+      "Basella Valaellis",
+      "Jaeneth Faerson",
+      "Rolan Caswell",
+      "Maenera Maenlarys",
+      "Lucaenor Leneneos"
+    ],
+    "score": 87
+  },
+  {
+    "name": "Elessar",
+    "tags": [
+      "Catelyn",
+      "Samn Knigh",
+      "Relaesys Tarareon",
+      "Graffin Vaele",
+      "Billon Cherrane"
+    ],
+    "score": 66
+  },
+  {
+    "name": "Duilin",
+    "tags": [
+      "Jaeneth Faerson",
+      "Jaida Shepherd",
+      "Jaida Hasty",
+      "Gidden Darry",
+      "Naelahnae Aeritheos"
+    ],
+    "score": 31
+  },
+  {
+    "name": "Elbereth Githoniel",
+    "tags": [
+      "Alavin Swyft",
+      "Jacaemon Laengyreon",
+      "Malaesys Velnaeros",
+      "Salna Stackspear"
+    ],
+    "score": 46
+  },
+  {
+    "name": "Orald",
+    "tags": [
+      "Aeranor Calaeris",
+      "Jesmyn Palker",
+      "Jaeneth Faerson",
+      "Matamion Baeltheos",
+      "Eraehra Raentheon"
+    ],
+    "score": 56
+  },
+  {
+    "name": "Arwen Undomiel",
+    "tags": [
+      "Malaegar Qohtalor",
+      "Rhaenesa Calnaris",
+      "Maenera Maenlarys",
+      "Delaehna Dalaellis"
+    ],
+    "score": 71
+  },
+  {
+    "name": "Hasufel",
+    "tags": [
+      "Gahaerion Naelareon",
+      "Aeremala Gonanyon",
+      "Jarvas Bergen",
+      "Jaida Hasty",
+      "Ramsay"
+    ],
+    "score": 12
+  },
+  {
+    "name": "Barliman Butterbur",
+    "tags": ["Kailyn Rok", "Malaevor Calnalys", "Delaehna Dalaellis"],
+    "score": 41
+  },
+  {
+    "name": "Elrond Halfelven",
+    "tags": ["Salna Stackspear", "Evelyne Kell", "Daenerys Caenaeris"],
+    "score": 58
+  },
+  {
+    "name": "Elessar",
+    "tags": ["Keila Humble", "Taenys Tariar", "Malaesys Velnaeros"],
+    "score": 100
+  },
+  {
+    "name": "Faramir",
+    "tags": ["Aegavon Taraleos", "Basella Valaellis", "Alylyra Baelaellis"],
+    "score": 56
+  },
+  {
+    "name": "Fladrif",
+    "tags": ["Malaedor Malnareon"],
+    "score": 87
+  },
+  {
+    "name": "Gollum",
+    "tags": ["Naelahnae Aeritheos"],
+    "score": 73
+  },
+  {
+    "name": "Celeborn",
+    "tags": ["Baelyra Raenlaeron", "Addysen Apperford", "Mamyx Nohlaeris"],
+    "score": 70
+  },
+  {
+    "name": "Tintalle",
+    "tags": [
+      "Gidden Darry",
+      "Eraehra Raentheon",
+      "Preytan Costayne",
+      "Daenyx Taentheos"
+    ],
+    "score": 77
+  },
+  {
+    "name": "Shadowfax",
+    "tags": ["Relaesys Tarareon"],
+    "score": 10
+  },
+  {
+    "name": "Legolas",
+    "tags": ["Malaera Caenaeris", "Cemrin Wells", "Catelyn"],
+    "score": 39
+  },
+  {
+    "name": "Legolas",
+    "tags": [
+      "Rila Flay",
+      "Jesmyn Palker",
+      "Relaesys Tarareon",
+      "Jacaemon Laengyreon"
+    ],
+    "score": 70
+  },
+  {
+    "name": "Orald",
+    "tags": ["Maenera Maenlarys", "Dorrick Qorgyle", "Taemar Baranyon"],
+    "score": 52
+  },
+  {
+    "name": "Peregrin",
+    "tags": [
+      "Manaena Maennaeros",
+      "Mariyam Bettley",
+      "Daenerys Caenaeris",
+      "Melinsa Dondarrion"
+    ],
+    "score": 72
+  },
+  {
+    "name": "Bregalad",
+    "tags": ["Aeranor Calaeris", "Delaehna Dalaellis", "Garaevor Doritheos"],
+    "score": 17
+  },
+  {
+    "name": "Elladan",
+    "tags": ["Malaenarr Caleneos", "Basella Valaellis", "Maddeson Slynt"],
+    "score": 63
+  },
+  {
+    "name": "Barliman Butterbur",
+    "tags": ["Jarvas Bergen"],
+    "score": 62
+  },
+  {
+    "name": "Eowyn",
+    "tags": [
+      "Ando Lolliston",
+      "Daenehna Caleris",
+      "Natari Ryser",
+      "Preytan Costayne",
+      "Relina Practor"
+    ],
+    "score": 92
+  },
+  {
+    "name": "Frodo Baggins",
+    "tags": [
+      "Haessa Aggaeron",
+      "Garaevor Doritheos",
+      "Chyanne Woodfoot",
+      "Malaegar Qohtalor",
+      "Theon"
+    ],
+    "score": 37
+  },
+  {
+    "name": "Gollum",
+    "tags": ["Rila Flay"],
+    "score": 35
+  },
+  {
+    "name": "Sauron",
+    "tags": ["Daltis Gaege", "Jessar Smyte", "Jory"],
+    "score": 67
+  },
+  {
+    "name": "Aragorn",
+    "tags": ["Balaegel Aeraelor", "Catelyn", "Chyanne Woodfoot"],
+    "score": 37
+  },
+  {
+    "name": "Glorfindel",
+    "tags": ["Lucaemor Vaeltheos"],
+    "score": 70
+  },
+  {
+    "name": "Elessar",
+    "tags": ["Garaevor Doritheos", "Yara"],
+    "score": 14
+  },
+  {
+    "name": "Gloin",
+    "tags": ["Ramsay"],
+    "score": 31
+  },
+  {
+    "name": "Arwen Undomiel",
+    "tags": ["Zane Oatwright", "Balaegel Aeraelor", "Paxtan Brask"],
+    "score": 33
+  },
+  {
+    "name": "Gwaihir",
+    "tags": [
+      "Manaehra Daereris",
+      "Malaenarr Caleneos",
+      "Rolan Caswell",
+      "Aeron Taentheon",
+      "Naelahnae Aeritheos"
+    ],
+    "score": 60
+  },
+  {
+    "name": "Glorfindel",
+    "tags": [
+      "Theon",
+      "Jarvas Bergen",
+      "Malaegar Qohtalor",
+      "Naela Berlarys",
+      "Catelyn"
+    ],
+    "score": 28
+  },
+  {
+    "name": "Saruman",
+    "tags": [
+      "Meya Manwoody",
+      "Graffin Vaele",
+      "Manaena Maennaeros",
+      "Preytan Costayne"
+    ],
+    "score": 28
+  },
+  {
+    "name": "Wormtongue",
+    "tags": ["Eraehra Raentheon", "Hemala Dalaellis"],
+    "score": 25
+  },
+  {
+    "name": "Barliman Butterbur",
+    "tags": ["Basella Valaellis"],
+    "score": 58
+  },
+  {
+    "name": "Eowyn",
+    "tags": ["Salna Stackspear"],
+    "score": 29
+  },
+  {
+    "name": "Fimbrethil",
+    "tags": ["Galaegel Aerlaeron"],
+    "score": 13
+  },
+  {
+    "name": "Halbarad",
+    "tags": [
+      "Daerla Gonreos",
+      "Baelyra Raenlaeron",
+      "Alavin Swyft",
+      "Derron Blount",
+      "Alylyra Baelaellis"
+    ],
+    "score": 88
+  },
+  {
+    "name": "Gandalf",
+    "tags": ["Manaehra Daereris", "Maenera Maenlarys"],
+    "score": 12
+  },
+  {
+    "name": "Isildur",
+    "tags": ["Naelahnae Aeritheos"],
+    "score": 6
+  },
+  {
+    "name": "Hasufel",
+    "tags": [
+      "Balaegel Aeraelor",
+      "Jesmyn Palker",
+      "Chyanne Woodfoot",
+      "Malaenarr Caleneos"
+    ],
+    "score": 53
+  },
+  {
+    "name": "Tintalle",
+    "tags": ["Relina Practor", "Samn Knigh", "Daenyx Taentheos"],
+    "score": 38
+  },
+  {
+    "name": "Orald",
+    "tags": [
+      "Salna Stackspear",
+      "Aeron Taentheon",
+      "Maryana Clarick",
+      "Malaevor Calnalys",
+      "Saeresanne Maenlarys"
+    ],
+    "score": 26
+  },
+  {
+    "name": "Balin",
+    "tags": [
+      "Alylyra Baelaellis",
+      "Vagon Lenraenos",
+      "Evelyne Kell",
+      "Rhaenesella Mellaeron"
+    ],
+    "score": 35
+  },
+  {
+    "name": "Estel",
+    "tags": ["Malaesys Velnaeros", "Amelira Orkwood", "Jaeneth Faerson"],
+    "score": 13
+  },
+  {
+    "name": "Fimbrethil",
+    "tags": [
+      "Garaevor Doritheos",
+      "Addysen Apperford",
+      "Rhaenesella Mellaeron",
+      "Malrik Fenn",
+      "Aran Seaworth"
+    ],
+    "score": 50
+  },
+  {
+    "name": "Bregalad",
+    "tags": [
+      "Amelira Orkwood",
+      "Relaesys Tarareon",
+      "Ramsay",
+      "Brienne",
+      "Malaevor Calnalys"
+    ],
+    "score": 46
+  },
+  {
+    "name": "Banazir",
+    "tags": ["Dorrick Qorgyle", "Malaevor Calnalys"],
+    "score": 22
+  },
+  {
+    "name": "Sauron",
+    "tags": ["Aeranor Calaeris", "Natari Ryser", "Yara"],
+    "score": 32
+  },
+  {
+    "name": "Peregrin",
+    "tags": ["Billon Cherrane", "Maenera Maenlarys"],
+    "score": 72
+  },
+  {
+    "name": "Barliman Butterbur",
+    "tags": ["Aegarion Caenlaeron", "Basella Valaellis", "Aeron Taentheon"],
+    "score": 43
+  },
+  {
+    "name": "Orald",
+    "tags": ["Taenys Laerdaerys", "Manaena Maennaeros"],
+    "score": 44
+  },
+  {
+    "name": "Luthien Tinuviel",
+    "tags": ["Keila Humble", "Aegalar Daltalos", "Daenehna Caleris"],
+    "score": 87
+  },
+  {
+    "name": "Gimli",
+    "tags": ["Graffin Vaele"],
+    "score": 34
+  },
+  {
+    "name": "Aragorn",
+    "tags": [
+      "Derron Blount",
+      "Jessar Smyte",
+      "Nelaesanne Valnaris",
+      "Rhaenesella Mellaeron",
+      "Naela Berlarys"
+    ],
+    "score": 98
+  },
+  {
+    "name": "Bregalad",
+    "tags": ["Jessar Smyte", "Jarvas Bergen"],
+    "score": 83
+  }
+]

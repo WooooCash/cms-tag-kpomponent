@@ -16,7 +16,6 @@ export default function TagWidget() {
         <hr />
         <div style={{ display: "flex", gap: "0.3rem", flexWrap: "wrap" }}>
           <Pill text="Test Długi" />
-          <Pill text="Test Jeszcze dłuższy" />
           <Pill text="Test" />
           <Pill text="Test Test Test" />
           <Pill text="Test Halo" />

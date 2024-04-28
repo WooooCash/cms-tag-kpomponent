@@ -546,12 +546,6 @@
     "score": 67
   },
   {
-    "id": 71,
-    "name": "Aragorn",
-    "tags": ["Balaegel Aeraelor", "Catelyn", "Chyanne Woodfoot"],
-    "score": 37
-  },
-  {
     "id": 73,
     "name": "Glorfindel",
     "tags": ["Lucaemor Vaeltheos"],
@@ -787,5 +781,35 @@
     "name": "Bregalad",
     "tags": ["Jessar Smyte", "Jarvas Bergen"],
     "score": 83
+  },
+  {
+    "id": 103,
+    "name": "Maryla Rodowicz",
+    "tags": ["Przeboje lat 70", "Muzyka"],
+    "score": 40
+  },
+  {
+    "id": 104,
+    "name": "Odmrażanie trupa",
+    "tags": ["Maryla Rodowicz", "Zima"],
+    "score": 35
+  },
+  {
+    "id": 105,
+    "name": "Festiwal w Opolu",
+    "tags": ["Maryla Rodowicz", "Opole", "Muzyka"],
+    "score": 32
+  },
+  {
+    "id": 106,
+    "name": "Legendy polskiej sceny muzycznej bardzo długi tag",
+    "tags": ["Maryla Rodowicz", "Muzyka", "Polska"],
+    "score": 30
+  },
+  {
+    "id": 107,
+    "name": "Przeboje lat 70",
+    "tags": ["Maryla Rodowicz", "Muzyka", "Lata 70"],
+    "score": 26
   }
 ]

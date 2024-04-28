@@ -13,6 +13,10 @@
   transition-duration: 0.15s;
 }
 
+.toolbarButton_selected {
+  background-color: var(--gray-hover);
+}
+
 .toolbarButton:hover {
   cursor: pointer;
   background-color: var(--gray-hover);

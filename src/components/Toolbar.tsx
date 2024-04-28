@@ -24,11 +24,18 @@ const navItems: ToolbarItem[] = [
 ];
 
 export default function Toolbar() {
+  const selectedIndex = 3;
+
   return (
     <Card>
       <div className={styles.toolbar}>
         {navItems.map((item, i) => (
-          <ToolbarButton key={i} tooltip={item.tooltip} icon={item.icon} />
+          <ToolbarButton
+            key={i}
+            tooltip={item.tooltip}
+            icon={item.icon}
+            selected={i == selectedIndex}
+          />
         ))}
       </div>
     </Card>

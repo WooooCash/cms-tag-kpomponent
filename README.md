@@ -5,6 +5,11 @@ Zdeployowane na [vercel](https://cms-tag-kpomponent-pfi9qevkc-woocashs-projects.
 ### Showcase
 ![Recording 2024-04-28 at 21 56 12](https://github.com/WooooCash/cms-tag-kpomponent/assets/58574586/bcea98ae-34b1-486c-a98a-6531a362a908)
 
+### Uruchomienie lokalne
+Zainstalowanie potrzebnych bibliotek: `npm install`
+
+Uruchomienie serwera: `npm run dev`
+
 ### Dokumentacja
 
 **Podział komponentów**

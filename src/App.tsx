@@ -1,11 +1,17 @@
 import "./App.css";
-import Card from "./components/Card";
 import Toolbar from "./components/Toolbar";
 import TagWidget from "./tags/components/TagWidget";
 
 function App() {
   return (
-    <div style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
+    <div
+      style={{
+        height: "90vh",
+        display: "flex",
+        gap: "1rem",
+        alignItems: "flex-start",
+      }}
+    >
       <Toolbar />
       <TagWidget />
     </div>

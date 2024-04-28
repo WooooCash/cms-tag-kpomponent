@@ -11,7 +11,7 @@ type RatingStage = {
   description?: string;
 };
 const ratingStages: RatingStage[] = [
-  { label: "Żenada", color: "#e51f1f" },
+  { label: "Brak", color: "#e51f1f" },
   { label: "Źle", color: "#f96368" },
   { label: "Słabo", color: "#f2a134" },
   { label: "Ok", color: "#f7e379" },

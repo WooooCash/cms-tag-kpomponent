@@ -36,6 +36,7 @@ function Result(props: ResultProps) {
 
 type SearchResultsProps = {
   results: TagEntry[];
+  onSubmit: CallableFunction;
 };
 
 export default function TagSearchResults(props: SearchResultsProps) {
@@ -52,6 +53,12 @@ export default function TagSearchResults(props: SearchResultsProps) {
     previous.splice(index, 1);
     setSelected(previous);
   };
+
+  const handleSubmit = () => {
+    let intersect = props.results.filter((el) => selected.includes(el.id));
+    props.onSubmit(intersect);
+  };
+
   return (
     <div className={styles.tagSearchResultsContainer}>
       <div className={styles.tagSearchResultsList}>
@@ -64,7 +71,13 @@ export default function TagSearchResults(props: SearchResultsProps) {
           />
         ))}
       </div>
-      <button className={styles.tagSearchSubmit} disabled={!selected.length}>Zapisz</button>
+      <button
+        className={styles.tagSearchSubmit}
+        disabled={!selected.length}
+        onClick={handleSubmit}
+      >
+        Zapisz
+      </button>
     </div>
   );
 }

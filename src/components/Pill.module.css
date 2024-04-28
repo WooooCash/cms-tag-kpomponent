@@ -9,6 +9,8 @@
     border: 1px solid #eaeaea;
     border-radius: 0.5rem;
     background-color: #fcfcfc;
+
+    user-select: none;
 }
 
 .pillClose {

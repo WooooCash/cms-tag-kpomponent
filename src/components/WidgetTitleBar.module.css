@@ -12,9 +12,15 @@
 }
 
 .exitButton {
-    line-height: 0;
+  line-height: 0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+
+  transition-property: transform;
+  transition-duration: 0.15s;
 }
 
 .exitButton:hover {
   cursor: pointer;
+  transform: scale(1.2);
 }

@@ -1,7 +1,7 @@
 .tagWidget {
     padding: 0.3rem;
     width: 20rem;
-    height: 21.5rem;
+    min-height: 21rem;
 
     display: flex;
     flex-direction: column;
@@ -10,4 +10,13 @@
 .tagWidget > hr {
     width: 100%;
     color: rgba(230, 230, 230, 0.33);
+}
+
+.tagsMissing {
+    width: 100%;
+    text-align: center;
+    color: #a3a3a3;
+    padding: 0.2rem;
+
+    user-select: none;
 }

@@ -9,37 +9,72 @@ import TagAI from "./TagAI";
 import TagSearchResults from "./TagSearchResults";
 import { useEffect, useState } from "react";
 import searchDB, { TagEntry } from "../data/db";
+import TagRatingInfo from "./TagRatingInfo";
 
 export default function TagWidget() {
   const [query, setQuery] = useState<string>("");
   const [searchResults, setSearchResults] = useState<TagEntry[]>([]);
+  const [tags, setTags] = useState<TagEntry[]>([]);
+
+  const satisfactoryTagCount = 5;
+  const isSearching = query.length > 0;
 
   useEffect(() => {
     if (!query) return;
     setSearchResults(searchDB(query));
   }, [query]);
 
-  const toggle = query.length > 0;
+  const handleSubmit = (newTags: TagEntry[]) => {
+    let previous = [...tags];
+    let previousIds = previous.map((el) => el.id);
+    for (let tag of newTags)
+      if (!previousIds.includes(tag.id)) previous.push(tag);
+    setTags(previous);
+    setQuery("");
+  };
+
+  const handlePillDelete = (id: number) => {
+    setTags((previous) => [...previous.filter((el) => el.id != id)]);
+  };
 
   return (
     <Card>
       <div className={styles.tagWidget}>
         <WidgetTitleBar title="Tagi" />
-        <Search placeholder="Wyszukaj grupę lub tag" onChange={setQuery} />
+        <Search
+          placeholder="Wyszukaj grupę lub tag"
+          onChange={setQuery}
+          value={query}
+        />
         <hr />
-        {!toggle && (
+        {!isSearching && (
           <>
             <div style={{ display: "flex", gap: "0.3rem", flexWrap: "wrap" }}>
-              <Pill text="Fix const height - some reasonable solution" />
-              <Pill text="Send back results intersect of selected and resultlist" />
+              {!tags.length && (
+                <div className={styles.tagsMissing}>Brak tagów</div>
+              )}
+              {tags.map((tag) => (
+                <Pill
+                  key={tag.id}
+                  id={tag.id}
+                  text={tag.name}
+                  onDelete={handlePillDelete}
+                />
+              ))}
             </div>
             <hr />
             <TagAI />
             <hr />
-            <Rating score={100} maxScore={100} />
+            <Rating score={tags.length} maxScore={satisfactoryTagCount} />
+            <TagRatingInfo
+              tagCount={tags.length}
+              desiredCount={satisfactoryTagCount}
+            />
           </>
         )}
-        {!!toggle && <TagSearchResults results={searchResults}/>}
+        {!!isSearching && (
+          <TagSearchResults results={searchResults} onSubmit={handleSubmit} />
+        )}
       </div>
     </Card>
   );

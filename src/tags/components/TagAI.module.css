@@ -1,9 +1,8 @@
 .tagAiContainer {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 
-  padding: 1rem 0.5rem;;
+  padding: 0.5rem 0;
 }
 
 .tagAiHeading,
@@ -11,9 +10,26 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+
+  padding: 0.5rem;
+
+  user-select: none;
 }
 
 .tagAiHeading {
   color: #a3a3a3;
   font-size: 0.9rem;
+}
+
+.tagAiItem {
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+
+  transition-property: background-color;
+  transition-duration: 0.15s;
+}
+
+.tagAiItem:hover {
+  cursor: pointer;
+  background-color: var(--gray-hover);
 }

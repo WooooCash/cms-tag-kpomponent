@@ -1,6 +1,8 @@
 # [CMS Tag Kpomponent](https://github.com/WooooCash/cms-tag-kpomponent)
 
-Zdeployowane na [vercel](https://cms-tag-kpomponent-pfi9qevkc-woocashs-projects.vercel.app/)
+~~Zdeployowane na [vercel](https://cms-tag-kpomponent-pfi9qevkc-woocashs-projects.vercel.app/)~~ - działanie vercel się zmieniło od ostatniego razu kiedy używałem. Nie podobają mi się ograniczenia.
+
+Zdeployowane na [netlify](https://master--melodic-scone-20617a.netlify.app/)
 
 ### Showcase
 ![Recording 2024-04-28 at 21 56 12](https://github.com/WooooCash/cms-tag-kpomponent/assets/58574586/bcea98ae-34b1-486c-a98a-6531a362a908)

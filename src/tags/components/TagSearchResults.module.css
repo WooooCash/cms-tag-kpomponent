@@ -43,6 +43,10 @@
 }
 
 .tagSearchResultCheck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 1rem;
   height: 1rem;
   border: 1px solid #dadada;
@@ -52,9 +56,9 @@
 }
 
 .tagSearchResult_selected > .tagSearchResultCheck {
-    background-color: var(--primary-blue);
-    border: 1px solid var(--primary-blue);
-    color: #fff;
+  background-color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+  color: #fff;
 }
 
 .tagSearchResultText {
@@ -101,5 +105,3 @@
   background-color: var(--gray-hover);
   color: #dadada;
 }
-
-
